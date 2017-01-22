@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+    
+  }
+blockquote{ border-left: 5px solid #7e57c2;}
+  
+.brand-logo{ margin-top: 10px;}
+.tabs .indicator{background-color:#651fff; }
+nav .button-collapse i{font-size:1.7rem}
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav{box-shadow:none;}
+@media only screen and (max-width: 992px){
+.hide-on-med-and-down {
+    display: block !important;
+        height: 56px;
+}
+    nav .brand-logo{
+        left:;
+    }
+}
+
+
+.input-field input[type=search]:focus{
+    xbackground-color:#ede7f6 ;
+    border-bottom: 1px solid #ede7f6
+}
+
+
+
+/*Badge Report*/
+.badge1 { position:relative;}
+.badge1[data-badge]:after { content:attr(data-badge); position:absolute;  top:10px;  right:3px; font-size:.7em; background:#ff3d00; color:white;  width:18px;height:18px; text-align:center;   line-height:18px;   border-radius:50%;   box-shadow:0 0 1px #ff704

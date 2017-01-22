@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="manifest" href="manifest.json">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	  
+      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/font-awesome.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content='width=device-width, initial-scale=1.0, user-scalable=0'/>
+      <meta name="apple-mobile-web-app-title" content="KLM">
+      <link rel="icon" type="image/png" href="/images/icon175x175.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="/images/icon175x175.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="/images/icon175x175.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/images/icon175x175.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/icon175x175.png" sizes="32x32">
+
+    </head>
+      
+
+  <body class="">
+  <header>
+    <nav class="deep-purple lighten-4">
+    <div class="nav-wrapper">
+       <!-- <a href="#!" class="brand-logo"><img src="images/theLibrary.png" height="40px"/></a> -->
+     <!--<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars" aria-hidden="true" style="color:#7e57c2; padding-left:20px;"></i></a> -->
+        <a href="#!" class="left brand-logo"><img src="images/theLibrary.png" height="35px"/></a>
+        <ul class="right hide-on-med-and-down">
+       
+        <li><a href="#" id="notification" class="badge1" data-badge="1"><i class="fa fa-bell-o fa-lg" aria-hidden="true" style="color:#311b92"></i></a></li>
+        
+         <li><a href="#" id="profile">  <i class="fa fa-user fa-lg" aria-hidden="true" style="color:#311b92"></i></a></li>
+            
+        <li><a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="color:#311b92">more_vert</i></a></li>
+         <ul class="side-nav" id="mobile-demo">
+        <li><a href="#">About Library</a></li>
+        <li><a href="#">FQA</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#l">Logout</a></li>
+      </ul>
+      </ul>
+     
+    </div>
+  </nav>
+
+
+  </header> <!-- Header End --> 
+  <main>
+      <div id="home">
+      <!-- Search Box -->
+      <nav class="deep-purple lighten-5">
+    <div class="nav-wrapper">
+      
+        <div class="input-field">
+          <input id="xsearch" type="search" required>
+          <label for="search"><i class="material-icons" style="color:#311b92">search</i></label>
+          <i class="material-icons" >close</i>
+        </div>
+     
+    </div>
+  </nav>
+      <!-- Search Box -->
+    <!-- Welcome Text -->
+    <div style="padding-left:10px;">
+   <blockquote >
+      Welcome Umar,
+    </blockquote>
+    </div>
+         <!-- Welcome Text -->
+ <!-- Container -->
+ <div class="row">
+    <div class="col s12">
+      <ul class="tabs  deep-purple lighten-4">
+        <li class="tab col s3"><a href="#test1" class="deep-purple-text" >Owned</a></li>
+        <li class="tab col s3"><a class="deep-purple-text" href="#test2">Subscribed</a></li>
+        <li class="tab col s3"><a class="deep-purple-text" href="#test4">Due</a></li>
+      </ul>
+    </div>
+    
+     <div id="test1" class="col s12">
+     <!-- Owned -->
+      <div class="row">
+        <div class="col s12 m7">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="images/java.jpg">
+              <span class="card-title deep-purple lighten-4 "> Author: Malaiappan</span>
+            </div>
+            <div class="card-content">
+               <p style="padding-bottom:10px"> Date Of Issue: <span class="badge deep-purple lighten-4 white-text ">12 Feb, 2017</span></p>
+                <p>Date of Return:<span class="badge deep-purple darken-4 white-text">12 Mar, 2017</span></p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn deep-purple darken-4 right">Extend</a>
+            </div>
+          </div>
+        </div>
+      </div>   
+          <div class="row">
+        <div class="col s12 m7">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="images/angular.jpg">
+              <span class="card-title deep-purple lighten-4 "> Author: Malaiappan</span>
+            </div>
+            <div class="card-content">
+               <p style="padding-bottom:10px"> Date Of Issue: <span class="badge deep-purple lighten-4 white-text ">12 Feb, 2017</span></p>
+                <p>Date of Return:<span class="badge deep-purple darken-4 white-text">12 Mar, 2017</span></p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn deep-purple darken-4 right">Extend</a>
+            </div>
+          </div>
+        </div>
+      </div>  
+     <!-- Owned End -->
+     </div>
+     
+   
+    <div id="test2" class="col s12">
+     
+    <!-- Subscribed --> 
+       <div class="row">
+        <div class="col s12 m7">
+          <div class="card small">
+            <div class="card-image">
+              <img src="images/oracle.jpg">
+              <span class="card-title yellow accent-4"> Author: Malaiappan</span>
+            </div>
+            <div class="card-content">
+               <p style="padding-bottom:10px">Subscribed:&nbsp;<i class="fa fa-star fa-lg yellow-text" aria-hidden="true"></i></p>
+                
+            </div>
+           
+          </div>
+        </div>
+      </div>   
+        
+        <div class="row">
+        <div class="col s12 m7">
+          <div class="card small">
+            <div class="card-image">
+              <img src="images/angular.jpg">
+              <span class="card-title yellow accent-4"> Author: Malaiappan</span>
+            </div>
+            <div class="card-content">
+               <p style="padding-bottom:10px">Subscribed:&nbsp;<i class="fa fa-star fa-lg yellow-text" aria-hidden="true"></i></p>
+                
+            </div>
+           
+          </div>
+        </div>
+      </div>   
+     <!-- Subscribed --> 
+     </div>
+    <div id="test4" class="col s12">
+     <!-- Due-->
+    <div class="row">
+      <div class="col s12 m5">
+        <div class="card-panel  deep-purple">
+          <span class="white-text">You've no Book's in Due.
+          </span>
+        </div>
+      </div>
+    </div>    
+    <!-- Due -->
+     
+     </div>
+     </div>
+    
+    
+ 
+  </div>
+    <!-- Container -->
+      <div id="profilelist" style="display:none; padding-top:10px">
+      <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate" value="Umar">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate" value="Abbas">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate" value="12345">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" value="umar432@gmail.com">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          
+          <div class="input-field inline">
+            <input id="email" type="email" class="validate" value="795756">
+            <label for="email" data-error="wrong" data-success="right">Register ID </label>
+          </div>
+        </div>
+      </div>
+        <div style="padding-right:10px;">
+        <a class="waves-effect waves-light btn deep-purple lighten-1 right" id="backProfile">back</a>
+        </div>
+    </form>
+  </div>
+     </div> <!-- End of Profile List -->
+    
+      <div id="notoficationlist" style="display:none;">
+       <div class="row">
+      <div class="col s12 m5">
+        <div class="card-panel  deep-purple">
+          <span class="white-text">Your subscribed book available  now 
+          </span>
+        </div>
+      </div>
+            <div style="padding-right:10px;">
+            <a class="waves-effect waves-light  deep-purple lighten-1 btn right" id="backNotify">back</a>
+           </div>
+    </div>    
+     
+      </div> <!-- End of Notfication List-->
+  
+  </main>
+      
+   <footer class="page-footer deep-purple lighten-4">
+          
+          <div class="footer-copyright deep-purple darken-4">
+            <div class="container">
+            © 2017 Copyright The Library
+            <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+          </div>
+        </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script> 
+    <script>
+   $(document).ready(function(){
+       $(".button-collapse").sideNav(); 
+    $('#profile').click(function(){
+           $('#home').hide('fadeOut');
+           $('#profilelist').show('fadeIn');
+         
+    });
+    
+     $('#backProfile').click(function(){
+            $('#profilelist').hide('fadeOut');
+           $('#home').show('fadeIn');
+          
+    });
+       
+       $('#notification').click(function(){
+            $('#home').hide('fadeOut');
+           $('#notoficationlist').show('fadeIn');
+          
+    });
+        $('#backNotify').click(function(){
+            $('#notoficationlist').hide('fadeOut');
+           $('#home').show('fadeIn');
+          
+    });
+    
+  });
+    </script>
+    </body>
+  </html>
+        
